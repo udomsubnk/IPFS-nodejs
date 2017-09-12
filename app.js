@@ -15,7 +15,7 @@ series([
   }),
   (cb) => node.files.add({
     path: 'hello.txt',
-    content: Buffer.from('Hello World 101')
+    content: Buffer.from('Hello World 101010100101')
   }, (err, result) => {
     if (err) { return cb(err) }
 
