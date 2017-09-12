@@ -1,0 +1,25 @@
+{
+  "name": "ipfs",
+  "version": "1.0.0",
+  "description": "Implement blockchain with IPFS protocol.",
+  "main": "app.js",
+  "dependencies": {
+    "async-series": "0.0.1",
+    "ipfs": "^0.25.4",
+    "ipfs-repo": "^0.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udomsubnk/IPFS-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udomsubnk/IPFS-nodejs/issues"
+  },
+  "homepage": "https://github.com/udomsubnk/IPFS-nodejs#readme"
+}

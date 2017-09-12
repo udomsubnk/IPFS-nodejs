@@ -1,5 +1,5 @@
 const Repo = require('ipfs-repo')
-const repo = new Repo('/tmp/ipfs-repo')
+const repo = new Repo('repo')
 
 repo.init({ cool: 'config' }, (err) => {
   if (err) {
